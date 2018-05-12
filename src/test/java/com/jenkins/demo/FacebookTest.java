@@ -45,7 +45,7 @@ public class FacebookTest {
 		
 		
 
-		message.sendKeys("jenkins has finally worked @AlkatAhmet ");
+		message.sendKeys("jenkins has finally worked");
 		
 		driver.findElement(By.xpath("//button[text()=\'Post\']")).click();
 
