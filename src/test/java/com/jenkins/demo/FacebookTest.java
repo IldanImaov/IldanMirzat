@@ -15,7 +15,7 @@ public class FacebookTest {
 	@Test
 	public void facebookLogin() throws Exception {
 		WebDriver driver = new ChromeDriver();
-		System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
 		driver.manage().window().maximize();
 		driver.get("http://www.facebook.com/");
 		Thread.sleep(3000);
